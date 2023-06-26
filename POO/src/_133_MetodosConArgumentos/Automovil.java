@@ -8,7 +8,7 @@ public class Automovil {
     double cilindraje;
     int capacidadEstanque = 40;
 
-    //metodos
+    //METODOS
     public String detalle(){
         StringBuilder sb = new StringBuilder();
         sb.append("\nauto.fabricante = " + this.fabricante);
@@ -18,7 +18,23 @@ public class Automovil {
         return  sb.toString();
     }
 
-    //metodos
+
+    public String acelerar(int rpm){
+        return "El auto " + fabricante  + " acelerando a " +rpm +"rpm";
+    }
+
+    public String frenar(){
+        return "El auto " + fabricante + " frenando!!!";
+    }
+
+    public String acelerarFrenar(int rpm){
+        String acelerar = this.acelerar(rpm);
+        String frenar = this.frenar();
+
+        return acelerar + "\n" +frenar;
+    }
+
+
     public float calcularConsumo(int km, float porcentajeBencina){
         return  km/(capacidadEstanque*porcentajeBencina);
     }
