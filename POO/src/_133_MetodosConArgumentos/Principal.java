@@ -12,9 +12,9 @@ public class Principal {
 
         System.out.println(auto.detalle());//imprime
 
-        System.out.println(auto.acelerar(5));
-        System.out.println(auto.frenar());
-        System.out.println("metodo \n"+auto.acelerarFrenar(400));
+        System.out.println(auto.calcularConsumo(300,0.75f));
+        System.out.println(auto.calcularConsumo(300,60));
+
 
     }//MAIN
 }//CLASS

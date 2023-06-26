@@ -1,15 +1,15 @@
 package _133_MetodosConArgumentos;
+
 public class Automovil {
 
-    //ATRIBUTOS
     String fabricante;
     String modelo;
     String color;
     double cilindraje;
+    int capacidadEstanque = 40;
 
-    //METODOS
+    //metodos
     public String detalle(){
-        //podria usar sout e imprimir pero no es buena practica
         StringBuilder sb = new StringBuilder();
         sb.append("\nauto.fabricante = " + this.fabricante);
         sb.append("\nauto.modelo = " + this.modelo);
@@ -18,19 +18,16 @@ public class Automovil {
         return  sb.toString();
     }
 
-    public String acelerar(int rpm){
-        return "El auto " + fabricante  + " acelerando a " +rpm +"rpm";
+    //metodos
+    public float calcularConsumo(int km, float porcentajeBencina){
+        return  km/(capacidadEstanque*porcentajeBencina);
     }
 
-    public String frenar(){
-        return "El auto " + fabricante + " frenando!!!";
+    public float calcularConsumo(int km, int porcentajeBencina){
+        return  km/(capacidadEstanque*(porcentajeBencina/100f));
     }
 
-    public String acelerarFrenar(int rpm){
-        String acelerar = this.acelerar(rpm);
-        String frenar = this.frenar();
 
-        return acelerar + "\n" +frenar;
-    }
+
 
 }//CLASS
