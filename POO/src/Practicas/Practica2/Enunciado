@@ -1,0 +1,25 @@
+¡Por supuesto! Aquí tienes un ejercicio práctico que te ayudará a aplicar los conceptos que has aprendido en los temas mencionados:
+
+Supongamos que estás desarrollando un programa para administrar una biblioteca. Para ello, necesitas crear una clase llamada "Libro" que tenga los siguientes atributos:
+
+- Título del libro (String)
+- Autor del libro (String)
+- Año de publicación (int)
+- Número de páginas (int)
+
+Además, la clase debe tener los siguientes métodos:
+
+1. Un método constructor que reciba el título, autor, año de publicación y número de páginas y los inicialice correctamente.
+2. Métodos de acceso (getters) para obtener el título, autor, año de publicación y número de páginas del libro.
+3. Un método llamado "imprimirInformacion" que imprima en la consola la información completa del libro (título, autor, año de publicación y número de páginas).
+
+
+4. Sobrescribe el método equals para comparar si dos libros son iguales basándose en el título, autor, año de publicación y número de páginas.
+5. Sobrescribe el método toString para obtener una representación en forma de cadena de texto del libro.
+
+Tu tarea es crear la clase "Libro" con los atributos y métodos mencionados, y luego escribir un programa principal (en una clase aparte) para probar la funcionalidad de la clase.
+En el programa principal, crea al menos dos objetos de la clase "Libro" con diferentes valores y utiliza los métodos de acceso y el método "imprimirInformacion" para mostrar la información de los libros en la consola.
+
+Recuerda aplicar los conceptos de encapsulamiento, creación de objetos con el operador "new", implementación de métodos, y si es necesario, la sobrecarga de constructores.
+
+Una vez que hayas completado el ejercicio, puedes compartir tu solución y estaré encantado de revisarla y brindarte retroalimentación adicional si es necesario. ¡Buena suerte!
