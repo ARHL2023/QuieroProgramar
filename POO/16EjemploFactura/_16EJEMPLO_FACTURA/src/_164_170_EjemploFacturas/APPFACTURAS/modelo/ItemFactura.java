@@ -34,4 +34,10 @@ public class ItemFactura {
 
     //METODOS
 
+    public float calcularImporte(){
+        return this.cantidad * this.proudcto.getPrecio();
+    }
+
+
+
 }//

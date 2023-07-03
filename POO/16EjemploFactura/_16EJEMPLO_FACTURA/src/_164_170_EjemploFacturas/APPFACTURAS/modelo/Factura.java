@@ -13,7 +13,7 @@ public class Factura {
     private ItemFactura[] items;
     private int indiceItems;
 
-    public  static final int MAX_ITEMS = 10;
+    public static final int MAX_ITEMS = 10;
 
     private static int ultimoFolio;
 
@@ -26,7 +26,6 @@ public class Factura {
         this.folio = ++ultimoFolio;//autogenerar
         this.fecha = new Date();
     }
-
 
 
     //GET AND SET
@@ -69,11 +68,39 @@ public class Factura {
 
     //METODOS
 
-    public void addItemFactura(ItemFactura item){
-        if(indiceItems<MAX_ITEMS){
+    public void addItemFactura(ItemFactura item) {
+        if (indiceItems < MAX_ITEMS) {
             this.items[indiceItems++] = item;
         }
+    }
 
-    }//
+    public float calcularTotal() {
+        float total = 0.0f;
+
+        for (ItemFactura item : this.items) {
+            if (item == null) {
+                continue;
+            }
+            total = +item.calcularImporte();
+        }
+        return total;
+    }
+
+    public String generarDetalle() {
+        StringBuilder sb = new StringBuilder("Factura N: ");
+
+        sb.append(folio).
+                append("\nCliente ")
+                .append(this.cliente.getNombre())
+                .append("\tNiff")
+                .append(cliente.getNif())
+                .append("\nDescripcion: ")
+                .append(this.descripcion)
+                .append("\n")
+                .append("\n# \tNombre \t$ \tCant. \tTotal\n")
+        ;
+
+        return sb.toString();
+    }
 
 }//
