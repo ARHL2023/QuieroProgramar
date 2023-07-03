@@ -1,0 +1,6 @@
+En POO, una clase es una plantilla o molde para crear objetos.
+Define las propiedades y comportamientos que los objetos de esa clase tendrán.
+Las propiedades se conocen como atributos, mientras que los comportamientos se llaman métodos.
+
+Un objeto es una instancia de una clase.
+Significa que es una entidad real creada a partir de la clase, con sus propias características y capacidades.

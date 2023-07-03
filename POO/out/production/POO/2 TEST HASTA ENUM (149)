@@ -1,0 +1,95 @@
+¡Claro! Aquí tienes un cuestionario de 10 preguntas teóricas de opción múltiple sobre los temas que mencionaste. Después de responder, por favor, proporciona tus respuestas y estaré encantado de revisarlas y brindarte retroalimentación. ¡Comencemos!
+
+1. ¿Cuál es el propósito de los atributos y métodos estáticos en una clase?
+   a) Permitir la creación de múltiples objetos de la clase.
+   b) Permitir el acceso a los miembros de la clase sin crear objetos.
+   c) Facilitar la herencia de la clase por parte de otras clases.
+   d) Controlar el alcance de los miembros de la clase dentro del paquete.
+
+2. ¿Qué significa que un atributo sea constante en Java?
+   a) El atributo no puede ser modificado después de su inicialización.
+   b) El atributo solo puede ser modificado por métodos estáticos.
+   c) El atributo solo puede ser modificado por métodos de instancia.
+   d) El atributo no puede ser accedido desde otras clases.
+
+3. ¿Cuál es la forma correcta de declarar un atributo constante en Java?
+   a) static final int NUMERO = 10;
+   b) final int numero = 10;
+   c) const int NUMERO = 10;
+   d) final static int numero = 10;
+
+4. ¿Qué es un enumerador (enum) en Java?
+   a) Un tipo de dato primitivo que representa valores numéricos.
+   b) Un tipo de dato que puede almacenar múltiples valores separados por comas.
+   c) Una estructura de control utilizada para iterar sobre una colección de elementos.
+   d) Un tipo de dato que representa un conjunto de constantes relacionadas.
+
+5. ¿Cuál es la utilidad de un enumerador (enum) en Java?
+   a) Facilitar la creación de objetos y su gestión en memoria.
+   b) Definir constantes que representan un conjunto de valores relacionados.
+   c) Permitir la ejecución condicional de bloques de código.
+   d) Proporcionar métodos para realizar operaciones matemáticas complejas.
+
+6. ¿Qué se puede hacer con un enumerador (enum) en Java?
+   a) Declarar variables y asignarles valores de cualquier tipo de dato.
+   b) Realizar operaciones aritméticas y lógicas utilizando los valores del enum.
+   c) Definir métodos y atributos específicos para cada valor del enum.
+   d) Acceder a los valores del enum mediante su posición numérica.
+
+7. ¿Cuál es la ventaja de utilizar un enumerador (enum) en lugar de variables constantes separadas?
+   a) Los enumeradores permiten agrupar constantes relacionadas en un solo lugar.
+   b) Los enumeradores ofrecen una mayor flexibilidad en cuanto a los tipos de datos que pueden almacenar.
+   c) Los enumeradores son más eficientes en términos de uso de memoria.
+   d) Los enumeradores son más fáciles de mantener y modificar en comparación con variables separadas.
+
+8. ¿Qué se puede hacer con una sentencia switch case y un enumerador (enum) en Java?
+   a) Comparar valores de tipo booleano y ejecutar diferentes bloques de código según el resultado.
+   b) Comparar valores numéricos y realizar operaciones matemáticas con ellos.
+   c) Comparar valores del
+
+ enum y ejecutar diferentes bloques de código según el valor correspondiente.
+   d) Comparar objetos y ejecutar diferentes bloques de código según su igualdad o diferencia.
+
+9. ¿Cuál es la forma correcta de iterar sobre los valores de un enumerador (enum) en Java?
+   a) Utilizando un bucle while y accediendo a los valores mediante su posición numérica.
+   b) Utilizando un bucle for y accediendo a los valores mediante su posición numérica.
+   c) Utilizando un bucle for each y accediendo a los valores directamente.
+   d) Utilizando un bucle do-while y accediendo a los valores mediante su posición numérica.
+
+10. ¿Cuál de las siguientes afirmaciones sobre los atributos y métodos estáticos es correcta?
+    a) Los atributos y métodos estáticos solo pueden ser accedidos por objetos de la misma clase.
+    b) Los atributos y métodos estáticos se comparten entre todos los objetos de la misma clase.
+    c) Los atributos y métodos estáticos solo pueden ser accedidos por métodos de instancia.
+    d) Los atributos y métodos estáticos solo pueden ser declarados en interfaces.
+
+Por favor, proporciona tus respuestas y estaré encantado de revisarlas.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ YO SELECCIONE
+
+1 B
+2 A
+3 C
+4 D
+5 B
+6 A
+7 B
+8 C
+9 C
+10 B
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ Aquí está la revisión de tus respuestas:
+
+1. ✔️ Correcta - Respuesta: b) Permitir el acceso a los miembros de la clase sin crear objetos.
+2. ✔️ Correcta - Respuesta: a) El atributo no puede ser modificado después de su inicialización.
+3. ❌ Incorrecta - Respuesta correcta: a) static final int NUMERO = 10;
+4. ✔️ Correcta - Respuesta: d) Un tipo de dato que representa un conjunto de constantes relacionadas.
+5. ✔️ Correcta - Respuesta: b) Definir constantes que representan un conjunto de valores relacionados.
+6. ✔️ Correcta - Respuesta: c) Definir métodos y atributos específicos para cada valor del enum.
+7. ❌ Incorrecta - Respuesta correcta: a) Los enumeradores permiten agrupar constantes relacionadas en un solo lugar.
+8. ✔️ Correcta - Respuesta: c) Comparar valores del enum y ejecutar diferentes bloques de código según el valor correspondiente.
+9. ✔️ Correcta - Respuesta: c) Utilizando un bucle for each y accediendo a los valores directamente.
+10. ✔️ Correcta - Respuesta: b) Los atributos y métodos estáticos se comparten entre todos los objetos de la misma clase.
+
+Acertaste 8 preguntas y fallaste 2 preguntas. ¡Buen trabajo en general! Si tienes alguna otra pregunta o necesitas más aclaraciones, estaré encantado de ayudarte.

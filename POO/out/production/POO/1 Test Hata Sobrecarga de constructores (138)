@@ -1,0 +1,90 @@
+¡Por supuesto! Aquí tienes un examen teórico de opción múltiple sobre los temas que mencionaste. Cada pregunta tiene cuatro opciones (A, B, C, D). Luego, puedes proporcionar tus respuestas y verificaremos tus respuestas juntos.
+
+1. ¿Cuál de las siguientes afirmaciones describe mejor la programación orientada a objetos (POO)?
+   A) Es un paradigma de programación centrado en el flujo de control.
+   B) Se enfoca en la secuencialidad de las instrucciones de un programa.
+   C) Organiza el código alrededor de objetos que representan entidades del mundo real.
+   D) Utiliza principalmente estructuras de control lineal para el desarrollo de aplicaciones.
+
+2. ¿Cuál de las siguientes opciones describe mejor una clase en POO?
+   A) Un objeto creado a partir de una clase.
+   B) Una función que realiza una tarea específica.
+   C) Un contenedor de datos primitivos.
+   D) Una plantilla para crear objetos con atributos y comportamientos comunes.
+
+3. ¿Qué se utiliza para crear objetos en POO?
+   A) La palabra clave "this".
+   B) El operador "+=".
+   C) El operador "new".
+   D) La función "printf()".
+
+4. ¿Qué se utiliza para agregar comportamiento a una clase en POO?
+   A) Atributos.
+   B) Constructores.
+   C) Métodos.
+   D) Variables locales.
+
+5. ¿Cuál de las siguientes opciones describe mejor un argumento en un método?
+   A) Un valor devuelto por el método.
+   B) Una instrucción que controla el flujo de ejecución.
+   C) Un valor pasado al método cuando es invocado.
+   D) Un tipo de dato primitivo.
+
+6. ¿Qué es la sobrecarga de métodos en POO?
+   A) Es la capacidad de un método para ser invocado varias veces.
+   B) Es la ocultación de los detalles internos de un objeto.
+   C) Es la creación de métodos con el mismo nombre pero diferentes parámetros.
+   D) Es el proceso de encapsular atributos y métodos en una clase.
+
+7. ¿Qué se refiere al encapsulamiento en POO?
+   A) La agrupación de atributos y métodos relacionados en una clase.
+   B) La creación de objetos a partir de una clase.
+   C) La reutilización de código a través de la herencia.
+   D) La ocultación de los detalles internos de una clase.
+
+8. ¿Cuál es el propósito principal de los métodos de acceso (getters) en POO?
+   A) Modificar los atributos de una clase.
+   B) Realizar cálculos complejos en una clase.
+   C) Acceder a los atributos privados de una clase desde fuera de la misma.
+   D) Devolver el valor de los atributos privados de una clase.
+
+9. ¿Qué es un constructor en POO?
+   A) Un método especial que se llama automáticamente cuando se crea un objeto.
+   B) Un método que devuelve un valor específico.
+   C) Una clase derivada que hereda los atributos de una clase base.
+   D) Una función que agrega comportamiento adicional a una clase.
+
+10. ¿Qué es la sobrecarga de constructores en POO?
+    A) La capacidad de un constructor para tener múltiples argumentos.
+    B) La ocultación de los detalles internos de
+
+ una clase.
+    C) La creación de múltiples constructores con diferentes parámetros.
+    D) La capacidad de un constructor para llamar a otro constructor de la misma clase.
+
+Toma tu tiempo para responder las preguntas y proporcionar tus respuestas. Estaré aquí para verificarlas y brindarte retroalimentación.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+¡Aquí tienes el resultado de tus respuestas!
+
+1. C) ✔️ Correcta. La programación orientada a objetos se enfoca en organizar el código alrededor de objetos que representan entidades del mundo real.
+
+2. D) ✔️ Correcta. Una clase en POO es una plantilla para crear objetos con atributos y comportamientos comunes.
+
+3. C) ✔️ Correcta. Se utiliza el operador "new" para crear objetos en POO.
+
+4. C) ✔️ Correcta. Los métodos se utilizan para agregar comportamiento a una clase en POO.
+
+5. C) ✔️ Correcta. Un argumento es un valor pasado al método cuando es invocado.
+
+6. C) ✔️ Correcta. La sobrecarga de métodos en POO es la creación de métodos con el mismo nombre pero diferentes parámetros.
+
+7. D) ✔️ Correcta. El encapsulamiento en POO se refiere a la ocultación de los detalles internos de una clase.
+
+8. C) ✔️ Correcta. Los métodos de acceso (getters) se utilizan para acceder a los atributos privados de una clase desde fuera de la misma.
+
+9. D) ✔️ Correcta. Un constructor en POO es un método especial que se llama automáticamente cuando se crea un objeto.
+
+10. C) ✔️ Correcta. La sobrecarga de constructores en POO se refiere a la creación de múltiples constructores con diferentes parámetros.
+
+¡Felicidades! Has respondido correctamente todas las preguntas. Tienes un buen conocimiento de los conceptos fundamentales de la programación orientada a objetos. Si tienes más preguntas o necesitas más ayuda, no dudes en preguntar.
