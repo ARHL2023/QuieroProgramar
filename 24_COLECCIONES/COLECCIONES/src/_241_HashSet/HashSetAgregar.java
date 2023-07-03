@@ -24,7 +24,7 @@ public class HashSetAgregar {
         System.out.println(hs); // Imprime los elementos del HashSet en cualquier orden
 
         boolean b = hs.add("4"); // Intenta agregar "4" nuevamente, se ignora ya que es un duplicado, devuelve false
-        System.out.println("b = " + b); // Imprime false, ya que el elemento no se agregó nuevamente
+        System.out.println("b = " + b); // Imprime false, ya que el elemento no se agregó nuevamente.
         System.out.println(hs); // Imprime los elementos del HashSet, sin duplicados
 
 
