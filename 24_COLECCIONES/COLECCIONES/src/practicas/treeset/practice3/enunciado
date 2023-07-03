@@ -1,0 +1,12 @@
+
+
+"Implementa una aplicación que gestione una lista de alumnos.
+Cada alumno tiene un nombre y una nota.
+La aplicación debe permitir al usuario agregar nuevos alumnos a la lista y eliminar alumnos existentes.
+La lista de alumnos debe estar ordenada alfabéticamente por nombre.
+La aplicación debe ofrecer un menú donde el usuario pueda seleccionar las siguientes opciones:
+        agregar alumno, eliminar alumno, mostrar lista de alumnos y salir del programa.
+            Al seleccionar la opción de agregar alumno, se debe solicitar al usuario que ingrese el nombre y la nota del alumno a agregar.
+            Al seleccionar la opción de eliminar alumno, se debe solicitar al usuario que ingrese el nombre del alumno a eliminar.
+            Al seleccionar la opción de mostrar lista de alumnos, se debe imprimir por pantalla la lista de alumnos actualmente registrados.
+            El programa debe continuar mostrando el menú hasta que el usuario decida salir del programa."
