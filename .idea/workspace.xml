@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afcb3dda-5eb1-4af0-88ec-034b113ec1ac" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/16EjemploFactura/~$cción 16 Programación orientada a objetos Ejemplo Facturas.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/TEKA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEKA/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/CURSOS/UDEMY/JAVA127/GITHUB/POO&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/USER/Desktop/CURSOS/UDEMY/JAVA127/GITHUB",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Desktop\CURSOS\UDEMY\JAVA127\GITHUB\POO\src\_144_145_AtributosConstantesFinal" />
