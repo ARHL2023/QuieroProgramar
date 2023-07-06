@@ -1,0 +1,3 @@
+Escribe un programa que solicite al usuario ingresar una serie de números enteros.
+El programa debe almacenar estos números en un arreglo de tipo int.
+Luego, el programa debe ordenar el arreglo de forma ascendente y mostrar los números ordenados.
