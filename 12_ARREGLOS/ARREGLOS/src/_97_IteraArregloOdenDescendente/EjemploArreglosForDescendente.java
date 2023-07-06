@@ -1,6 +1,7 @@
 package _97_IteraArregloOdenDescendente;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class EjemploArreglosForDescendente {
 
@@ -43,6 +44,15 @@ public class EjemploArreglosForDescendente {
         System.out.println("\nIterando orden inverso 2");
         for (int i = totalString-1; i >= 0; i--) {
             System.out.println("Indice " + (i) + ": " + productos[i]);
+        }
+
+        System.out.println("\nIterando orden inverso 3");
+        // Utiliza Arrays.sort() con un Comparator para ordenar en orden descendente
+        Arrays.sort(productos, Collections.reverseOrder());
+
+        // Imprime los elementos del arreglo en orden descendente
+        for (String producto : productos) {
+            System.out.println(producto);
         }
 
     }
