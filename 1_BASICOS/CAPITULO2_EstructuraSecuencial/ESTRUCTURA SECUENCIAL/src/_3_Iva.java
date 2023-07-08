@@ -17,7 +17,7 @@ public class _3_Iva {
         double total = precio + subtotal;
 
 
-        System.out.println("total = " + total);
+        System.out.println("total =  " + total);
 
     }
 }

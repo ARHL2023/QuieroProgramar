@@ -3,7 +3,7 @@
 //        A = π.r2
 //        Área (A): Es el área del círculo.
 //        PI (π): Representa el valor constante pi (3.14159).
-//        Radio (r): Es el radio del círculo.
+//        Radio (r): Es el radio del círculo
 
 public class _9_AreaCirculo {
 }

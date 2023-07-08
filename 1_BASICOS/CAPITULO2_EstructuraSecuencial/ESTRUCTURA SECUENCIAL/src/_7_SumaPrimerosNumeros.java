@@ -14,7 +14,7 @@ public class _7_SumaPrimerosNumeros {
 
         int sumaN = ( numero*(numero+1) )/2;
 
-        System.out.println("sumaN = " + sumaN);
+        System.out.println("sumaN  = " + sumaN);
 
 
     }

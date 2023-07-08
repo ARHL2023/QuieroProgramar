@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Problema n.° 1
+//Problema n.° 1.
 //        Enunciado: Dado dos números enteros, hallar la suma.
 public class _1_Suma2Numeros {
 

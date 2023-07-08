@@ -1,5 +1,5 @@
 //Problema n.° 2
-//        Enunciado: Hallar el cociente y el residuo (resto) de dos números enteros.
+//        Enunciado: Hallar el cociente y el residuo (resto) de dos números enteros
 
 import java.util.Scanner;
 

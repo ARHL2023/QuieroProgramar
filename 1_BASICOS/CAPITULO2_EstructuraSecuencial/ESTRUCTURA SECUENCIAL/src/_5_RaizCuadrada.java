@@ -5,7 +5,7 @@ public class _5_RaizCuadrada {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("Ingrese numero 1: ");
+        System.out.print("Ingrese numero 1:  ");
         int numero1 = entrada.nextInt();
 
 

@@ -13,7 +13,7 @@ public class _4_Ptencia {
 
         int potencia = (int) Math.pow(base , exponente);
 
-        System.out.println("potencia = " + potencia);
+        System.out.println("potencia  = " + potencia);
         
     }
 }
