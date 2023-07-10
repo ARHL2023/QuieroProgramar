@@ -11,10 +11,31 @@
 //        Interés (I): Parte de la u􀆟 lidad que ob􀆟 ene el capitalista al prestar su dinero.
 //        Tiempo (t): Es el periodo de 􀆟 empo durante el cual se cede el capital.
 
+import java.util.Scanner;
+
 public class _8_InteresCompuesto {
     public static void main(String[] args) {
 
-//
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Ingrese capital: ");
+        double capital = entrada.nextDouble();
+
+        System.out.print("Ingrese tasa de interés: ");
+        double tasaInteres = entrada.nextDouble();
+
+        System.out.print("Ingrese tiempo en años: ");
+        int tiempo = entrada.nextInt();
+
+        double monto = capital * Math.pow((1 + tasaInteres / 100), tiempo);
+        double interes = monto - capital;
+
+        System.out.println("Capital: $" + capital);
+        System.out.println("Tasa de interés: " + tasaInteres + "%");
+        System.out.println("Tiempo: " + tiempo + " años");
+        System.out.println("Monto: $" + monto);
+        System.out.println("Interés: $" + interes);
+
 
     }
 }
