@@ -3,4 +3,6 @@ out
 ~$LOS Y CONCURRENCIA.docx
 1_thread.pdf
 HILOS_CONCURRENCIA.iml
+.gitignore
+../25_HILOS-CONCURRENCIA.iml
 
