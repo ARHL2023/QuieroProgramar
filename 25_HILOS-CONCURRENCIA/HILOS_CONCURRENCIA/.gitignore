@@ -1,8 +1,10 @@
 .idea
 out
-~$LOS Y CONCURRENCIA.docx
+.gitignore
 1_thread.pdf
 HILOS_CONCURRENCIA.iml
-.gitignore
-../25_HILOS-CONCURRENCIA.iml
+HILOS Y CONCURRENCIA.docx
+1_thread.pdf
+~$LOS Y CONCURRENCIA.docx
+
 
