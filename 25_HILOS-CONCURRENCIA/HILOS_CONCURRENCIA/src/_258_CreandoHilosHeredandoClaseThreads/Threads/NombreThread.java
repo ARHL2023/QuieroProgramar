@@ -1,6 +1,7 @@
 package _258_CreandoHilosHeredandoClaseThreads.Threads;
 
-public class NombreThread extends Thread {
+public class NombreThread  extends Thread{
+
     public NombreThread(String name) {
         // Llamar al constructor de la clase Thread para asignar el nombre al hilo
         super(name);
@@ -28,4 +29,5 @@ public class NombreThread extends Thread {
 
         System.out.println("Finaliza el hilo");
     }
+
 }
