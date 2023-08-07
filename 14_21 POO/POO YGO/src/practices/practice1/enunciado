@@ -1,0 +1,26 @@
+---
+
+**Práctica de Programación: Cartas de Yu-Gi-Oh!**
+
+Crea una clase llamada `Monstruo` que represente a un monstruo del juego de cartas Yu-Gi-Oh!.
+La clase debe tener los siguientes atributos privados:
+
+- `nombre` (String): El nombre del monstruo.
+- `nivel` (int): El nivel del monstruo.
+- `ataque` (int): Los puntos de ataque del monstruo.
+- `defensa` (int): Los puntos de defensa del monstruo.
+
+Implementa los siguientes métodos públicos en la clase `Monstruo`:
+
+1. Un constructor que acepte parámetros para inicializar los atributos `nombre`, `nivel`, `ataque` y `defensa`.
+2. Métodos `get` y `set` para cada uno de los atributos.
+3. Un método `calcularPoderTotal()` que calcule y retorne el poder total del monstruo sumando sus puntos de ataque y defensa.
+4. Un método `subirDeNivel()` que aumente el nivel del monstruo en 1 y ajuste sus puntos de ataque y defensa en +300 cada uno.
+5. Un método `mostrarInformacionDetallada()` que muestre en la consola la información del monstruo, incluyendo su nombre, nivel, ataque, defensa y poder total.
+
+Luego, en la clase `Main`, crea una instancia de `Monstruo` utilizando el constructor, establece valores para sus atributos utilizando los métodos `set`,
+y utiliza los nuevos métodos para calcular el poder total, subir de nivel y mostrar información detallada del monstruo.
+
+---
+
+Espero que este enunciado te brinde una práctica más completa y desafiante para aplicar los conceptos aprendidos en los Módulos 2 y 3. ¡Diviértete programando!
