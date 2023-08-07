@@ -1,0 +1,45 @@
+En Java, un hilo (thread) es una unidad básica de ejecución que permite que un programa realice tareas concurrentemente. Los hilos son útiles cuando se necesita realizar múltiples tareas simultáneamente o cuando se desea aprovechar al máximo los recursos del sistema.
+
+Para trabajar con hilos en Java, puedes utilizar la clase `Thread` que proporciona la funcionalidad básica para crear y controlar hilos. Aquí hay una introducción a los hilos en Java:
+
+1. Creación de un hilo:
+   Para crear un hilo en Java, puedes extender la clase `Thread` y sobrescribir su método `run()`. El código dentro del método `run()` se ejecutará en paralelo en un hilo separado. Aquí hay un ejemplo:
+
+   ```java
+   public class MiHilo extends Thread {
+       public void run() {
+           //  Código a ejecutar en el hilo
+       }
+   }
+   ```
+
+2. Inicio de un hilo:
+   Para iniciar un hilo, se crea una instancia de la clase `MiHilo` y se llama al método `start()`. Esto inicia el hilo y llama al método `run()` en un nuevo hilo de ejecución. Aquí hay un ejemplo:
+
+   ```java
+   MiHilo hilo = new MiHilo();
+   hilo.start();
+   ```
+
+3. Múltiples hilos:
+   Puedes crear múltiples hilos en Java para realizar tareas simultáneas. Cada hilo se ejecutará de forma independiente. Aquí hay un ejemplo que muestra la creación de dos hilos:
+
+   ```java
+   MiHilo hilo1 = new MiHilo();
+   MiHilo hilo2 = new MiHilo();
+   hilo1.start();
+   hilo2.start();
+   ```
+
+4. Métodos importantes de la clase Thread:
+   La clase `Thread` proporciona varios métodos importantes para controlar y administrar hilos. Algunos de ellos son:
+
+   - `start()`: Inicia la ejecución del hilo llamando al método `run()`.
+   - `join()`: Hace que un hilo espere hasta que otro hilo haya terminado su ejecución.
+   - `sleep()`: Hace que el hilo actual se suspenda durante un período de tiempo especificado.
+   - `interrupt()`: Interrumpe el hilo actual.
+   - `isAlive()`: Verifica si el hilo está en ejecución.
+
+Estos son solo conceptos básicos para comenzar a trabajar con hilos en Java. También hay otras formas más avanzadas de trabajar con hilos utilizando la interfaz `Runnable`, la clase `ExecutorService` y otras clases proporcionadas por la API de concurrencia de Java.
+
+Recuerda que al trabajar con hilos, debes tener cuidado con la sincronización y la concurrencia, ya que pueden surgir problemas como condiciones de carrera o bloqueos. Java proporciona mecanismos para abordar estos problemas, como el uso de bloqueos (locks) y variables condicionales.
