@@ -1,0 +1,33 @@
+**Práctica de Programación: Cartas de Yu-Gi-Oh! con Polimorfismo**
+
+En el mundo de Yu-Gi-Oh!, las cartas de monstruos pueden ser de diferentes tipos, como
+"Monstruo Normal", "Monstruo Efecto", "Monstruo de Fusión" y "Monstruo Ritual".
+Cada tipo de monstruo tiene características y habilidades únicas.
+
+Crea una jerarquía de clases que represente diferentes tipos de cartas de monstruos en el juego Yu-Gi-Oh!.
+Utiliza el concepto de polimorfismo para demostrar cómo se pueden tratar objetos de diferentes tipos
+de manera uniforme a través de su clase base.
+
+Las clases a implementar son las siguientes:
+
+1. `Monstruo`: Clase base que representa un monstruo genérico. Debe tener atributos como nombre, nivel, ataque y defensa.
+    Debe tener un método `mostrarInformacion()` para mostrar los detalles del monstruo.
+
+2. `MonstruoNormal`: Clase derivada de `Monstruo` que representa un monstruo normal.
+    Debe tener un atributo adicional de "descripcion"
+    y un método `activarEfecto()` para mostrar un mensaje especial.
+
+3. `MonstruoEfecto`: Clase derivada de `Monstruo` que representa un monstruo de efecto.
+    Debe tener un atributo adicional de "efecto" y un método `activarEfecto()` para mostrar un mensaje especial.
+
+4. `MonstruoFusion`: Clase derivada de `Monstruo` que representa un monstruo de fusión.
+    Debe tener atributos adicionales para los nombres de los monstruos de fusión requeridos
+    y un método `realizarFusion()` para mostrar cómo se realiza la fusión.
+
+
+En el programa principal (`Main`), crea instancias de diferentes tipos de monstruos y demuestra el uso del polimorfismo
+al tratarlos de manera uniforme a través de su clase base. Llama a los métodos relevantes para mostrar la información
+y las habilidades especiales de cada tipo de monstruo.
+
+¡Diviértete practicando el polimorfismo en el mundo de Yu-Gi-Oh! y crea una representación dinámica de cartas de monstruos
+con distintas habilidades y características únicas.
